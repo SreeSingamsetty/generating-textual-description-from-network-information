@@ -1,0 +1,21 @@
+In this repository, there are model1 and model2 folders.
+By model1 we refer to the model where node embeddings are given directly as hidden state inputs to the decoder
+By model2 we refer to the model where hiddenstate values are calculated from node embeddings
+and these values are given to the decoder.
+
+As the embeddings file for model2 and model file(.h5file) of model1 were large, they has been uploaded in drive and the link was shared via email.
+
+Outline of model1:
+embedding dimension: 100
+walklength and num walks = 20 and 10
+#epochs trained: 50
+optimizer:adadelta
+batch size:64
+
+Outline of model2:
+embedding dimension: 200
+walklength and num walks = 20 and 10
+#epochs trained: 50
+optimizer:adadelta
+batch size:64
+
