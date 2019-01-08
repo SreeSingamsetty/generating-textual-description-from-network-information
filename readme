@@ -1,0 +1,32 @@
+This repository contains file related to the thesis work - generating textual node description from network information.
+
+There are two models in this work, their files have been uploaded in their respective folders.
+
+model1:
+
+33.csv is the dataset used to generate node embeddings
+33_absdataset is the file containing writer names and one line abstracts.
+33_100d_online.emb is the node embeddings file
+
+mynodeembeddings.py - to generate embeddings
+retry_online.py - to adjust tab between the text and embedding values for further processing. 
+n2s_noclac.py - actual implementation of the model1.
+bleuscore_1.py - to calculate bleu scores.
+
+accuracy, loss graphs file can be found in the outputfiles folder
+model.h5 file has been uploaded in drive and the link has been shared.
+result file on which bleuscores were calculated can be found in results folder.
+
+
+model2:
+33.csv is the dataset used to generate node embeddings
+33_absdataset is the file containing writer names and one line abstracts.
+33_200d_20wl10nm_online.emb is the node embeddings file uploaded in drive and link has been shared.
+
+mynodeembeddings.py - to generate embeddings
+retry_online.py - to adjust tab between the text and embedding values for further processing. 
+n2s_model2.py - actual implementation of the model2.
+bleuscore_1.py - to calculate bleu scores.
+
+accuracy, loss graphs, model.h5 file can be found in the outputfiles folder
+result file on which bleuscores were calculated can be found in results folder.
